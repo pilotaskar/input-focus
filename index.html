@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input-focus</title>
+</head>
+<body>
+
+    <style>
+        input:focus{
+            background-color: aqua;
+        }
+        textarea:focus{
+            background-color: bisque;
+        }
+    </style>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname"><br><br>
+
+    <label for="text">Write your essay here</label><br>
+    <textarea  id="text" cols="30" rows="10"></textarea>
+
+    <p style="background-color: red; color: white;">Try to write somethin inside boxes. Their backround will change. I used input:focus and textarea:focus. For more info see my code plz...</p>
+    
+</body>
+</html>
